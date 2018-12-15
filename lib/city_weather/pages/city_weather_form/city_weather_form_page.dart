@@ -1,0 +1,19 @@
+import 'package:flutter/material.dart';
+
+import 'package:insta_weather/city_weather/city_weather.dart';
+
+class CityWeatherFormPage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return
+      Scaffold(
+          appBar: AppBar(
+            title: Text('City Weather'),
+          ),
+          body: CityWeatherFormContent(),
+
+      );
+  }
+
+
+}
